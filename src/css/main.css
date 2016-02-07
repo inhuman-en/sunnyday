@@ -115,6 +115,166 @@ footer {
     left: -60px;
 }
 
+.camel {
+    position: fixed;
+    bottom: 130px;
+    left: 40%;
+    width: 300px;
+    height: 300px;
+    /*border: 1px solid white;*/
+}
+
+.camel div {
+    position: absolute;
+    background-color: #edad00;
+}
+
+.camel .foot {
+    bottom: 0;
+    width: 14px;
+    height: 100px;
+}
+
+.camel .foot-1 {
+    left: 19%;
+}
+
+.camel .foot-2 {
+    bottom: -15px;
+    left: 75%;
+    height: 120px;
+}
+
+.camel .torso {
+    bottom: 70px;
+    left: 18%;
+    border-radius: 48%;
+    border-bottom-left-radius: 40%;
+    width: 190px;
+    height: 100px;
+}
+
+.camel .back {
+    top: -25px;
+    left: 25%;
+    border-radius: 50%;
+    width: 95px;
+    height: 90px;
+}
+
+.camel .head {
+    top: 92px;
+    left: -86px;
+    border-radius: 50%;
+    width: 70px;
+    height: 30px;
+}
+
+.camel .neck {
+    left: -75px;
+    top: 0px;
+    border-radius: 75%;
+    border: 35px solid #edad00;
+    width: 200px;
+    height: 140px;
+}
+
+.camel .neckspine {
+    left: -70px;
+    top: 20px;
+    border-radius: 85%;
+    border: 25px solid #edad00;
+    width: 180px;
+    height: 120px;
+}
+
+.camel .neck,
+.camel .neckspine {
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom-color: #edad00;
+
+}
+
+.camel .neck {
+    transform: rotate(35deg);
+}
+
+.camel .neckspine {
+    transform: rotate(23deg);
+}
+
+.camel .eye {
+    left: 44px;
+    top: 8px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.camel .smile {
+    left: -3px;
+    top: 5px;
+    width: 25px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: #fff;
+    border-width: 2px;
+    transform: rotate(-15deg);
+}
+
+.camel .ear {
+    left: 48px;
+    top: -2px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    /*background-color: #fff;*/
+}
+
+.camel .eye .eyeball {
+    left: 2px;
+    top: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.hill {
+    position: fixed;
+    bottom: 0;
+    background-color: khaki;
+}
+
+.hill-1 {
+    height: 200px;
+    width: 30%;
+    /*border-top-left-radius: 30%;*/
+    border-top-right-radius: 80%;
+}
+
+.hill-2 {
+    left: 27%;
+    height: 140px;
+    width: 40%;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 70%;
+}
+
+.hill-3 {
+    left: 62%;
+    height: 140px;
+    width: 45%;
+    border-top-left-radius: 65%;
+    border-top-right-radius: 70%;
+}
+
+
 @-webkit-keyframes ray_anim {
     0% { -webkit-transform: rotate(0deg); transform: rotate(0deg);}
     100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
